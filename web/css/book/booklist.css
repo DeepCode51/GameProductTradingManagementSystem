@@ -1,0 +1,91 @@
+.wrapper .main h3{
+	border-bottom: 1px #ccc solid;
+	padding:15px;
+	margin:10px 0;
+}
+
+.wrapper .main .main-left ul li a{
+	padding:2px 5px;
+	display: block;
+	height:26px;
+	line-height: 26px;
+}
+.wrapper .main .main-left ul li a:hover{
+	background:rgba(215, 0, 109,0.03);
+}
+.wrapper .main .pro .pro-list li{
+	padding:0 10px 10px 10px;
+	overflow: hidden;
+}
+.wrapper .main .pro .pro-list li .list{
+	border:1px #eee solid;
+	padding:5px;
+}
+.wrapper .main .pro .pro-list li .list:hover{
+	background:rgba(215, 0, 109,0.05);
+}
+.wrapper .main .pro .pro-list li .list a{
+	position: relative;
+	display:block;
+	overflow: hidden;
+}
+
+.wrapper .main .pro .pro-list li .list .proinfo{
+	padding:5px;
+	
+}
+.wrapper .main .pro .pro-list li .list .proinfo h2 a{
+	display:inline-block;
+	width:100%;
+	word-break:keep-all;
+  		white-space:nowrap;
+  		overflow:hidden;
+	
+}
+.wrapper .main .pro .pro-list li .list .proinfo p{
+	padding:5px;
+	margin:0;
+	height:30px;
+	line-height: 30px;
+}
+
+.wrapper .main .pro .pro-list li .list .proinfo p i{
+	color:red;
+	font-size: 24px;
+	
+}
+.wrapper .main .pro .pro-list li .list .proinfo p a{
+	display: inline-block;
+	float:right;
+	margin-top:5px;
+	
+}
+/* 分页样式 */
+.wrapper .pager{
+	border-top:1px #eee solid;
+	padding-top:15px; 
+}
+.wrapper .pager .page-div{
+	display: inline-block;
+	width:110px;
+}
+.wrapper .homePage,.wrapper .prePage,.wrapper .page-go,.wrapper .nextPage,.lastPage{
+	border-radius:15px;
+	color:#d7006d;
+}
+
+
+.wrapper #page-input{
+	display:inline-block;
+	width:60px;
+	border-radius: 10px;
+}
+.wrapper .bookImg{
+	width:50px;
+}
+.wrapper .funbtn{
+	margin:10px 0;
+}
+.wrapper .funbtn a{
+	margin-right:10px;
+}

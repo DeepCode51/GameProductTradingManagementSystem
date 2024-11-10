@@ -1,0 +1,66 @@
+body, p, div, ul, li, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("../../images/login/bg.jpg");
+}
+
+#login {
+	width: 400px;
+	height: 250px;
+	background: rgba(255, 255, 255, 0.3);
+	margin: 200px auto 0;
+	position: relative; 
+	border-radius: 10px;
+}
+
+#title {
+	text-align: center;
+	position: absolute;
+	left: 40px;
+	right: 0;
+	top: 70px;
+	font-size: 36px;
+	color: #fff;
+}
+
+#login form p {
+	text-align: center;
+}
+
+#userName {
+	background: url(../../images/login/user.png) rgba(255, 255, 255, 0.7)
+		no-repeat;
+	width: 200px;
+	height: 30px;
+	border: solid #ccc 1px;
+	border-radius: 3px;
+	padding-left: 32px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#passWord {
+	background: url(../../images/login/pwd.png) rgba(255, 255, 255, 0.7) no-repeat;
+	width: 200px;
+	height: 30px;
+	border: solid #ccc 1px;
+	border-radius: 3px;
+	padding-left: 32px;
+	margin-bottom: 30px;
+}
+
+#submit {
+	width: 232px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.7);
+	border: solid #ccc 1px;
+	border-radius: 3px;
+}
+
+#submit:hover {
+	cursor: pointer;
+	background: rgba(75, 81, 123, 0.42);
+}

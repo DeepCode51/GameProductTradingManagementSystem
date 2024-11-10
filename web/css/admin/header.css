@@ -1,0 +1,61 @@
+* {
+margin:0;
+padding:0;
+}
+
+a { 
+text-decoration:none;
+}
+
+body {
+font-family:"Microsoft YaHei"; 
+}
+
+.header {
+background:#144d63;
+color:#fff;
+height:60px;
+padding:0 20px;
+}
+
+.header .title {
+background:url(../../images/logo.png) no-repeat left center;
+background-size:50px;
+color:#fff;
+display:inline-block;
+font-size:24px;
+height:60px;
+line-height:60px;
+padding-left:60px;
+text-decoration:none;
+width:330px; 
+}
+
+
+.header .adminName {
+	display:inline-block;
+	position: absolute;
+	top:26px;
+	right:50px;
+}
+
+
+.left,.right{
+	position:absolute;
+	top:60px;
+	overflow: hidden;
+}
+.left{
+	left:0;
+	bottom:0;
+	z-index: 1;
+}
+.right{
+	bottom:0;
+	left:210px;
+	right:0;
+	z-index: 2;
+}
+.dropdown-menu{
+	margin:0;
+}

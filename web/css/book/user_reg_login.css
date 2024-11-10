@@ -1,0 +1,26 @@
+.wrapper .title{
+	text-align:center;
+}
+.wrapper{
+	margin-top:50px;
+}
+.wrapper .main{
+	width:650px;
+}
+.wrapper .main ul li a{
+	width:200px;
+}
+.wrapper .main .nav-tabs .active a{
+	color:#d7006d;
+	
+}
+.wrapper .tab-content{
+	padding:30px 20px;
+	border:1px #ccc solid;
+	border-top:0;
+}
+.wrapper .Validform_checktip{
+	font-size: 12px;
+	color:#777;
+	font-style: italic;
+}

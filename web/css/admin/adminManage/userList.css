@@ -1,0 +1,31 @@
+body{
+	margin:0;
+	padding:0;
+	background:#eee;
+}
+.content{
+	padding:20px 40px 0 40px;
+} 
+.page-div{
+	display: inline-block;
+	width:110px;
+}
+.homePage,.prePage,.page-go,.nextPage,.lastPage{
+	border-radius:15px;
+	color:#337ab7;
+}
+.pager{
+	padding:0 20px; 
+}
+
+.funbtn{
+	margin:10px 0;
+}
+.funbtn a{
+	margin-right:10px;
+}
+#page-input{
+	display:inline-block;
+	width:60px;
+	border-radius: 10px;
+}
